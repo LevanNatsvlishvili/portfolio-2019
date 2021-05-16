@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+@font-face {
+  font-family: 'regular';
+  src: url (/fonts/OpenSans-Regular.ttf) format('ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'bold';
+  src: url (/fonts/OpenSans-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'semiBold';
+  src: url (/fonts/OpenSans-SemiBold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'extraBold';
+  src: url (/fonts/OpenSans-ExtraBold.ttf) format('ttf');
+}
+
+body{
+  background-color: #555!important;
+}
+
+*{
+  font-family: Firago-Regular;
 }
