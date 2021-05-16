@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://levannatsvlishvili.github.io/portfolio",
+  "homepage": "https://levannatsvlishvili.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.12.0",

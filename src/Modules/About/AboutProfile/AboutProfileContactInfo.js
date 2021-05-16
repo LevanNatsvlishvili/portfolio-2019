@@ -9,7 +9,7 @@ const AboutProfileContactInfo = (props) => {
       <Text
         fontWeight='800'
         lineHeight='36px'
-        fontSize='20px'>
+        fontSize='22px'>
         Contact Info
       </Text>
       <AboutText heading='Address' desc='Georgia,Tbilisi' />

@@ -16,8 +16,8 @@ const AboutProfile = (props) => {
       </Grid>
       <Grid item xs={12} sm={9}>
         <Text
-          lineHeight='36px'
-          fontSize='32px'>
+          lineHeight='40px'
+          fontSize='36px'>
           Levan Natsvlishvili
           </Text>
         <Grid container>

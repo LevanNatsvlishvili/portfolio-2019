@@ -7,7 +7,7 @@ import AboutText from '../Components/AboutText';
 const AboutProfileLanguages = (props) => {
 
   return (
-    <Box display='table' ml='auto' >
+    <Box display='table' ml={{ xs: 0, md: 'auto' }} >
       <Text
         fontWeight='800'
         lineHeight='36px'
