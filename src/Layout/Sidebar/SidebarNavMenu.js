@@ -17,7 +17,7 @@ const SidebarNavMenu = (props) => {
         <NavLink to={Url.EXPERIENCE}>Work Experience</NavLink>
       </ListItem>
       <ListItem>
-        <NavLink to={Url.PORTFOLIO}>Portfolio</NavLink>
+        <NavLink to={Url.PROJECTS}>Projects</NavLink>
       </ListItem>
       <ListItem>
         <NavLink to={Url.EDUCATION}>Education</NavLink>

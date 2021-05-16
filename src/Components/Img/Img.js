@@ -4,8 +4,10 @@ import React from 'react';
 const Img = (props) => {
   const classes = useStyles({
     width: props.width,
+    height: props.height,
     radius: props.radius,
     marginRight: props.marginRight,
+    marginLeft: props.marginLeft,
   })
   const { src, ...rest } = props;
   return (
@@ -17,7 +19,9 @@ const useStyles = makeStyles((theme) => ({
   img: {
     width: props => props.width,
     borderRadius: props => props.radius,
-    marginRight: props => theme.spacing(props.marginRight)
+    marginRight: props => theme.spacing(props.marginRight),
+    marginLeft: props => theme.spacing(props.marginLeft),
+    height: props => props.height,
   }
 }));
 

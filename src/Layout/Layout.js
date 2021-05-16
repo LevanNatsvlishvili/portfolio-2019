@@ -9,10 +9,10 @@ const Layout = (props) => {
 
   return (
     <div >
-      <Box width={{ xs: '100%', md: '30%', }} className={classes.sidebar} >
+      <Box width={{ xs: '100%', md: '30%', lg: '20%' }} className={classes.sidebar} >
         <Sidebar />
       </Box>
-      <Box ml={{ xs: 0, md: '30%' }} p={2}>
+      <Box ml={{ xs: 0, md: '30%', lg: '20%' }} p={2}>
         {props.children}
       </Box>
     </div>

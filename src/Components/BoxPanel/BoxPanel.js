@@ -7,6 +7,7 @@ const BoxPanel = (props) => {
   const classes = useStyles({
     width: props.width,
     margin: props.margin,
+    minHeight: props.minHeight,
   });
   const { children, ...rest } = props;
   return (
@@ -24,6 +25,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.colors.grey,
     width: props => props.width,
     margin: props => props.margin,
+    minHeight: props => props.minHeight,
+    height: '100%'
   }
 }));
 

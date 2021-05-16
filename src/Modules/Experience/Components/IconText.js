@@ -12,7 +12,7 @@ const IconText = (props) => {
       <Hidden xsDown>
         {icon ? <Img marginRight='1' radius='6px' width='35px' src={icon} /> : null}
       </Hidden>
-      <Text fontSize='20px' >
+      <Text fontSize='20px' fontWeight='600' >
         {text}
       </Text>
     </Box>

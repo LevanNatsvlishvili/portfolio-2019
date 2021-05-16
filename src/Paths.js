@@ -2,7 +2,7 @@ const Url = {
   BASE: '/',
   ABOUT: '/portfolio/',
   EXPERIENCE: '/portfolio/experience',
-  PORTFOLIO: '/portfolio/portfolio',
+  PROJECTS: '/portfolio/projects',
   EDUCATION: '/portfolio/education',
   SKILLS: '/portfolio/skills',
   SERVICES: '/portfolio/services',
